@@ -1,0 +1,7 @@
+1. Phần Header, Banner bố cục như file thiết kế, chiều rộng Full Width
+2. Phần Gallery bố cục như phần thiết kế chiều rộng 1200px, phần margin
+giữa các hình ảnh là 32px (left+right); 
+3. Nút button khi hover vào thì thay đổi màu nền sang đen và chữ chuyển
+sang màu trắng
+4. Các phần còn lại thiết kế như bố cục đã cho
+5. Các thành phần trên Layout thiết kế đúng mã màu như mẫu đã cho.

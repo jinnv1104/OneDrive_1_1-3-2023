@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(227, 114, 32);
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+ul{
+    
+    display: flex;
+}
+.header>div{
+    margin: auto;
+}
+.logo>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+ul>li{
+  
+    padding: 10px 40px;
+}
+.icon>i{
+    color: white;
+    margin: 20px;
+}   
+.slider{
+    width:100%;
+}
+.img-slider>img{
+    width:100%;
+}
+.text-slider>h1{
+    font-size: 45px;
+}
+.text-slider>h4{
+    font-size: 15px;
+}
+.text-slider{
+    width: 400px;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+}
+.shop-now{    
+    position: relative;
+    left: 300px;
+    bottom: 450px;   
+}
+button:hover{
+    background-color: #000000;
+}
+img{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(227, 114, 32);
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.content-l{
+    margin-right: 16px;
+}
+.content-r{
+    margin-left: 16px;
+}
+.item{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 64px
+}
+.item-l{
+    margin-right: 16px;
+}
+.item-c{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.item-r{
+    margin-left: 16px;
+}
+.contact{
+    display: flex;
+    justify-items: center;
+    height: 400px;
+    margin-top: 64px;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+}
+.contact-item{
+    color: white;
+    width: 600px;
+    margin: auto;
+}
+.contact-item>div{
+    margin: 32px;
+}
+.inp{
+
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.inp>input{
+    width: 90%;
+    height: 60%;
+    border: none;
+    outline: none;
+}
+.footer{
+    line-height: 64px;
+    text-align: center;
+    width: 100%;
+    height: 64px;
+    color: white;
+    background-color: rgb(110, 105, 105);
+}
